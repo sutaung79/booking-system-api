@@ -16,8 +16,6 @@ import java.time.Instant;
 @Table(name = "password_reset_token")
 public class PasswordResetToken {
 
-  private static final int EXPIRATION = 60 * 24; // Token valid for 24 hours
-
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;

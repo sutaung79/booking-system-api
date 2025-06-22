@@ -37,17 +37,23 @@ To run this application, you will need:
     cd booking-system-api
     ```
 
-2.  **Configure the Database:**
+2.  **Create the Database:**
+    - First, create the database manually in your MySQL server. You can use the following SQL command:
+      ```sql
+      CREATE DATABASE booking_system_db;
+      ```
+
+3.  **Configure the Connection:**
     - Open `src/main/resources/application.properties`.
     - Ensure the `spring.datasource.username` and `spring.datasource.password` match your local MySQL setup.
-    - The application will automatically create the database `booking_system_db` if it doesn't exist.
 
-3.  **Run the application using Maven:**
+4.  **Run the application using Maven:**
     ```bash
     mvn spring-boot:run
     ```
+    - The application will automatically create all the necessary tables (schema) and populate them with sample data from `data.sql`.
 
-4.  **Access the API:**
+5.  **Access the API:**
     - The API will be available at `http://localhost:8080`.
     - **Swagger UI (API Documentation)**: Access `http://localhost:8080/swagger-ui.html` to view and test all endpoints.
 
