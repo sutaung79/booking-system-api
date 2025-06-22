@@ -1,0 +1,37 @@
+{"properties": [
+  {
+    "name": "security.jwt.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'security.jwt.secret'"
+  },
+  {
+    "name": "security.jwt.expiration-time",
+    "type": "java.lang.String",
+    "description": "A description for 'security.jwt.expiration-time'"
+  },
+  {
+    "name": "app.mock.email.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'app.mock.email.enabled'"
+  },
+  {
+    "name": "app.mock.payment.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'app.mock.payment.enabled'"
+  },
+  {
+    "name": "app.mock.payment.add-card-success",
+    "type": "java.lang.String",
+    "description": "A description for 'app.mock.payment.add-card-success'"
+  },
+  {
+    "name": "app.mock.payment.charge-success",
+    "type": "java.lang.String",
+    "description": "A description for 'app.mock.payment.charge-success'"
+  },
+  {
+    "name": "app.mock.email.send-success",
+    "type": "java.lang.String",
+    "description": "A description for 'app.mock.email.send-success'"
+  }
+]}
